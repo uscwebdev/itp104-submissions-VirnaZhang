@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Virna Zhang | Form Page </title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+            padding-top: 20px;
+        }
+        #form{
+            background-color: #E6C1C8;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px;
+            padding: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .item{
+            padding: 5px;
+        }
+        .formrow{
+            margin: 10px 0px;
+            display: flex;
+        }
+        #flowerbox{
+            margin-top: 30px;
+            background-color: #E6C1C8;
+            border-radius: 70px;
+            margin-bottom: 30px;
+        }
+        .flowers{
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .imgtext{
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        img{
+            margin-top: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            height: auto;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Flower Bouquet Form Order</h1>
+    <div id="form">
+        <form action="confirmation.html">
+            
+            <div class="formrow">
+                <label for="nameid">FIRST NAME</label>
+                <div class="box" style="padding-left: 100px;"><input id=“nameid” type=“text” placeholder="First Name" style="height: 18px; width: 300px;"></div>
+            </div>
+
+            <div class="formrow">
+                <label for="nameid">LAST NAME</label>
+                <div class="box" style="padding-left: 105px;"><input id=“nameid” type=“text” placeholder="Last Name" style="height: 18px; width: 300px;"></div>
+            </div>
+
+            <div class="formrow">
+                <label for=“emailid”>EMAIL</label>
+                <div class="box" style="padding-left: 141px;"><input id=“emailid” type=“email” placeholder="example@email.com" style="height: 18px; width: 300px;"></div>
+            </div>
+
+            <div class="formrow">
+                <label for="phonenum">PHONE NUMBER</label>
+                <div class="box" style="padding-left: 71px;"><input id="phonenum" type="text" placeholder="(000) 000-0000" style="height: 18px; width: 300px;"></div>
+            </div>
+
+            <div class="formrow">
+                <label for="styles">BOUQUET STYLE</label>
+                <div class="box" style="padding-left: 67px;">
+                    <select id="styles">
+                    <option>Red Roses</option>
+                    <option>Rosy Dreams</option>
+                    <option>Pink Fairytale</option>
+                    <option>Starry Night</option>
+                    <option>Midnight Black</option>
+                    <option>White Wedding</option>
+                </select>
+                </div>
+            </div>
+
+            <div class="formrow">
+                <label>BOUQUET SIZE</label>
+                <br>
+                <div class="box" style="padding-left: 74px;">
+                    <label><input type="radio" name="size">Small</label>
+                    <br>
+                    <label><input type="radio" name="size">Medium</label>
+                    <br>
+                    <label><input type="radio" name="size">Large</label>
+                    <br>
+                </div>
+            </div>
+
+            <div class="formrow">
+                <label>ADDITIONAL ADD-ONS</label>
+                <br>
+                <div class="box" style="padding-left: 25px;">
+                    <label><input type="checkbox"> Gift Box </label>
+                    <br>
+                    <label><input type="checkbox"> Box of Chocolates </label>
+                    <br>
+                    <label><input type="checkbox"> Teddy Bear </label>
+                </div>
+            </div>
+
+            <div class="formrow">
+                <label for=“message”>CARD MESSAGE</label>
+                <br>
+                <div class="box" style="padding-left: 75px;">
+                    <label id=“message”><textarea placeholder="Dear Lover..." style="height: 100px; width: 300px;"></textarea></label>
+                </div>
+            </div>
+
+            <div class="formrow">
+                <label><input type="checkbox"> I accept Terms & Conditions </label>
+            </div>
+
+            <div class="formrow">
+                <button type="submit">ORDER</button>
+                <button type="reset">CLEAR</button>
+            </div>
+        </form>
+    </div>
+    <div id="flowerbox">
+        <h3>BOUQUET STYLES</h3>
+        <div class="flowers">
+            <div class="imgtext">
+                <img src="/lab_05/images/Red.jpeg" alt="Red">
+                <p class="worditem">Red Roses</p>
+            </div>
+            <div class="imgtext">
+                <img src="/lab_05/images/Rosy.jpeg" alt="Red">
+                <p class="worditem">Rosy Dreams</p>
+            </div>
+            <div class="imgtext">
+                <img src="/lab_05/images/Pink.jpeg" alt="Red">
+                <p class="worditem">Pink Fairytale</p>
+            </div>
+            <div class="imgtext">
+                <img src="/lab_05/images/Starry.jpg" alt="Red">
+                <p class="worditem">Starry Night</p>
+            </div>
+            <div class="imgtext">
+                <img src="/lab_05/images/Black.jpeg" alt="Red">
+                <p class="worditem">Midnight Black</p>
+            </div>
+            <div class="imgtext">
+                <img src="/lab_05/images/Wedding.jpg" alt="Red">
+                <p class="worditem">White Wedding</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
