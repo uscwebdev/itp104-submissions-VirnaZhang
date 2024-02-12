@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Virna Zhang | Calendar </title>
+    <style>
+        body{
+            background-color: #787276;
+        }
+        header{
+            background-image: url("/assignment_04/images/March.jpg");
+            width: 1050px;
+            background-size: 1050px 400px;
+            padding-bottom: 110px;
+            margin: auto;
+            background-repeat: no-repeat;
+            background-position: center top;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 80px;
+            text-align: center;
+        }
+        h1{
+            padding-top: 100px;
+            margin: 0px;
+            color: #ffffff;
+            opacity: 0.7;
+        }
+        table, th, td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width: 1050px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #ffffff;
+        }
+        td{
+            width: 145px;
+            height: 100px;
+            text-align: right;
+            vertical-align: top;
+        }
+        .grey{
+            color: lightgrey;
+        }
+        #mom{
+            background-image: url("/assignment_04/images/mom.jpeg");
+            background-size: 160px 130px;
+            background-blend-mode:luminosity;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            font-weight: bolder;
+        }
+        #birthday{
+            background-image: url("/assignment_04/images/birthday.jpeg");
+            background-size: 160px 130px;
+            background-blend-mode:luminosity;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            font-weight: bolder;
+        }
+        #clover{
+            background-image: url("/assignment_04/images/clover.jpeg");
+            background-size: 160px 130px;
+            background-blend-mode:luminosity;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            font-weight: bolder;
+        }
+        #bunny{
+            background-image: url("/assignment_04/images/bunny.jpeg");
+            background-size: 160px 130px;
+            background-blend-mode:luminosity;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            font-weight: bolder;
+        }
+        .box{
+            background-color: black;
+            width: 140px;
+            height: 35px;
+            border-radius: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.5;
+            margin-top: 20px;
+        }
+        .word{
+            text-align: center;
+            padding-top: 8px;
+            font-size: 15px;
+        }
+        .day{
+            padding-right: 3px;
+            padding-top: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> MARCH 2024 </h1>
+    </header>
+    <div id="table">
+        <table>
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr>
+                <td class="grey"><div class="day">25</div></td>
+                <td class="grey"><div class="day">26</div></td>
+                <td class="grey"><div class="day">27</div></td>
+                <td class="grey"><div class="day">28</div></td>
+                <td class="grey"><div class="day">29</div></td>
+                <td><div class="day">1</div></td>
+                <td><div class="day">2</div></td>
+            </tr>
+            <tr>
+                <td id="mom">
+                    <div class="day">3</div>
+                    <div class="box">
+                        <div class="word">Mother's Birthday</div>
+                    </div>
+                </td>
+                <td><div class="day">4</div></td>
+                <td><div class="day">5</div></td>
+                <td><div class="day">6</div></td>
+                <td><div class="day">7</div></td>
+                <td><div class="day">8</div></td>
+                <td><div class="day">9</div></td>
+            </tr>
+            <tr>
+                <td><div class="day">10</div></td>
+                <td><div class="day">11</div></td>
+                <td id="birthday">
+                    <div class="day">12</div>
+                    <div class="box">
+                        <div class="word">Virna's Birthday</div>
+                    </div>
+                </td>
+                <td><div class="day">13</div></td>
+                <td><div class="day">14</div></td>
+                <td><div class="day">15</div></td>
+                <td><div class="day">16</div></td>
+            </tr>
+            <tr>
+                <td id="clover">
+                    <div class="day">17</div>
+                    <div class="box">
+                        <div class="word">St. Patrick's Day</div>
+                    </div>
+                </td>
+                <td><div class="day">18</div></td>
+                <td><div class="day">19</div></td>
+                <td><div class="day">20</div></td>
+                <td><div class="day">21</div></td>
+                <td><div class="day">22</div></td>
+                <td><div class="day">23</div></td>
+            </tr>
+            <tr>
+                <td><div class="day">24</div></td>
+                <td><div class="day">25</div></td>
+                <td><div class="day">26</div></td>
+                <td><div class="day">27</div></td>
+                <td><div class="day">28</div></td>
+                <td><div class="day">29</div></td>
+                <td><div class="day">30</div></td>
+            </tr>
+            <tr>
+                <td id="bunny">
+                    <div class="day">31</div>
+                    <div class="box">
+                        <div class="word">Easter</div>
+                    </div>
+                </td>
+                <td class="grey"><div class="day">1</div></td>
+                <td class="grey"><div class="day">2</div></td>
+                <td class="grey"><div class="day">3</div></td>
+                <td class="grey"><div class="day">4</div></td>
+                <td class="grey"><div class="day">5</div></td>
+                <td class="grey"><div class="day">6</div></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
