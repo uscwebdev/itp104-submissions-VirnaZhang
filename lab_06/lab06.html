@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virna Zhang | Simple Photo Gallery</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h1{
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        h3{
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+        #circle{
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #DBE7F3;
+            border-radius: 20px;
+        }
+        #flowerbox{
+            display: flex;
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 30px;
+        }
+        img{
+            width: 160px;
+            height: 200px;
+            border-radius: 20px;
+        }
+        .flower:hover{
+            opacity: 0.7;
+        }
+        .flower > p{
+            text-align: center;
+            opacity: 0.0;
+        }
+        .flower:hover > p{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flower Gallery</h1>
+    <div id="circle">
+        <h3>Hover over each flower to learn about them!</h3>
+        <div id="flowerbox">
+            <div class="flower">
+                <img src="/lab_06/images/camellia.jpeg" alt="Camellia">
+                <p>Camellia</p>
+                <p>White camellias symbolize purity and innocence.</p>
+            </div>
+            <div class="flower">
+                <img src="/lab_06/images/rose.jpeg" alt="Rose">
+                <p>Rose</p>
+                <p>The red rose symbolizes romance, love, beauty, and courage</p>
+            </div>
+            <div class="flower">
+                <img src="/lab_06/images/larkspur.jpeg" alt="Larkspur">
+                <p>Larkspur</p>
+                <p>It is symbolic of a beautiful spirit, swiftness and generally of positivity and strong bonds of love, as well as lightheartedness and youth.</p>
+            </div>
+            <div class="flower">
+                <img src="/lab_06/images/tulip.jpeg" alt="Tulip">
+                <p>Tulip</p>
+                <p>The meaning behind tulips involves perfection and deep love. </p>
+            </div>
+            <div class="flower">
+                <img src="/lab_06/images/lily.jpeg" alt="Lily">
+                <p>Lily</p>
+                <p>This flower represents purity, innocence, and rebirth.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
