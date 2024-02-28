@@ -1,0 +1,86 @@
+body{
+    background-color: #E8E7E8;
+    margin: 0px;
+}
+header, footer{
+    text-align: center;
+}
+header{
+    font-size: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-left: 290px;
+    padding-right: 290px;
+    margin: auto;
+}
+@font-face{
+    font-family: "Jost";
+    src: url("fonts/Jost-VariableFont_wght.ttf");
+}
+h1{
+    font-family: "Jost";
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+#menubar{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #181516;
+    box-shadow: 0px 2px 5px #CCC;
+    z-index: 1;
+}
+#menu{
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+#menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu > ul{
+    display: flex;
+    align-items: flex-start;
+}
+#menu ul li{
+    background-color: #181516;
+    width: 180px;
+    text-align: center;
+    z-index: 1;
+}
+#menu a{
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 50px;
+    line-height: 50px;
+}
+#menu ul ul{
+    display: none;
+    position: absolute;
+}
+#menu li:hover, #menu #active-menu {
+    color: #181516;
+    background-color: #E8E7E8;
+}
+#menu li:hover > ul{
+    color: #181516;
+    background-color: #E8E7E8;
+    display: block;
+}
+.overall{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color: #181516;
+    color: #ffffff;
+    padding: 10px;
+}
+a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

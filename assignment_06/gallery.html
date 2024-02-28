@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Virna Zhang | Gallery</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <style>
+            header{
+                background-image: url(/assignment_06/images/dining.JPG);
+                padding-top: 250px;
+                padding-bottom: 20px;
+            }
+            h2{
+                text-align: left;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                margin: 0px;
+                padding-top: 10px;
+                padding-left: 80px;
+            }
+            .container{
+                width: 1080px;
+                background-color: white;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .items{
+                width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                flex-direction: column;
+            }
+            .group{
+                display: flex;
+                justify-content: center;
+                align-content: space-between;
+            }
+            #item1, #item2, #item3{
+                width: 300px;
+                height: 350px;
+                margin: 5px;
+                margin-top: 10px;
+            }
+            #item4{
+                width: 260px;
+                height: 350px;
+                margin: 5px;
+            }
+            #item5{
+                width: 650px;
+                height: 350px;
+                margin: 5px;
+            }
+            #item6{
+                width: 450px;
+                height: 350px;
+                margin: 5px;
+            }
+            #item7{
+                width: 225px;
+                height: 350px;
+                margin: 5px;
+            }
+            #item8{
+                width: 225px;
+                height: 350px;
+                margin: 5px;
+            }
+            #item9{
+                width: 455px;
+                height: 350px;
+                margin: 5px;
+                margin-bottom: 10px;
+            }
+            #item10{
+                width: 455px;
+                height: 350px;
+                margin: 5px;
+                margin-bottom: 10px;
+            }
+            .item{
+                background-color: rgb(142, 147, 152);
+                overflow: hidden;
+                text-align: center;
+                position: relative;
+            }
+            .item > img{
+                width: 100%;
+                height: auto;
+            }
+            .caption{
+                font-family: "Indie Flower", cursive;
+                font-weight: 400;
+                font-style: normal;
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                padding-top: 50%;
+                background-color: rgba(0, 0, 0, 0.6);
+                color: white;
+            }
+            #caption4, #caption5, #caption6, #caption7, #caption8, #caption9, #caption10{
+                position: absolute;
+                padding-top: 175px;
+            }
+            .item > .caption{
+                visibility: hidden;
+            }
+            .item:hover > .caption{
+                visibility: visible;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <h1>GALLERY</h1>
+    </header>
+    <div id="menubar">
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="assignment06.html">Home</a>
+                    <ul>
+                        <li><a href="assignment06.html#topic1">The Republiqué</a></li>
+                        <li><a href="assignment06.html#topic2">The Butcher's Daughter</a></li>
+                        <li><a href="assignment06.html#topic3">H Cafe</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html" id="active-menu">Gallery</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="overall">
+        <div class="container">
+            <h2>FOOD PHOTOGRAPHY</h2>
+            <div class="items">
+                <div class="group">
+                    <div id="item1" class="item">
+                        <img src="images/harucake.JPG" alt="cakes">
+                        <div id="caption1" class="caption">Harucake</div>
+                    </div>
+                    <div id="item2" class="item">
+                        <img src="images/bingsoo.JPG" alt="bingsoo">
+                        <div id="caption2" class="caption">Oakobing</div>
+                    </div>
+                    <div id="item3" class="item">
+                        <img src="images/liuscafe.JPG" alt="pastries">
+                        <div id="caption3" class="caption">Liu's Cafe</div>
+                    </div>
+                </div>
+                <div class="group">
+                    <div id="item4" class="item">
+                        <img src="images/beverlyhills.JPG" alt="icecream">
+                        <div id="caption4" class="caption">Cassetta</div>
+                    </div>
+                    <div id="item5" class="item">
+                        <img src="images/pinencrane.JPG" alt="chinese foods">
+                        <div id="caption5" class="caption">Pine and Crane</div>
+                    </div>
+                </div>
+                <div class="group">
+                    <div id="item6" class="item">
+                        <img src="images/nyccafe.JPG" alt="freemans brunch cafe items">
+                        <div id="caption6" class="caption">Freemans Brunch</div>
+                    </div>
+                    <div id="item7" class="item">
+                        <img src="images/rnycafe.JPG" alt="rny cafe drinks">
+                        <div id="caption7" class="caption">RNY Cafe</div>
+                    </div>
+                    <div id="item8" class="item">
+                        <img src="images/somemorela.JPG" alt="some more la cafe drinks">
+                        <div id="caption8" class="caption">Some More LA</div>
+                    </div>
+                </div>
+                <div class="group">
+                    <div id="item9" class="item">
+                        <img src="images/arden.jpg" alt="arden cafe foods">
+                        <div id="caption9" class="caption"> Arden Cafe & Restaurant</div>
+                    </div>
+                    <div id="item10" class="item">
+                        <img src="images/irvine.jpg" alt="chan chan foodhouse">
+                        <div id="caption10" class="caption">Chan Chan</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>University of Southern California &#169; 2024</footer>
+</body>
+</html>
