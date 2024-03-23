@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Virna Zhang | Form Page </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            text-align: center;
+            font-family: "Single Day", cursive;
+            font-weight: bold;
+            font-style: normal;
+        }
+        h3{
+            text-align: center;
+            padding-top: 20px;
+            font-family: "Single Day", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+        #form{
+            background-color: #F5F5F5;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px;
+            padding: 15px;
+            font-family: "Single Day", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .item{
+            padding: 5px;
+        }
+        .formrow{
+            margin: 10px 0px;
+            display: flex;
+        }
+        #milkbox{
+            margin-top: 30px;
+            background-color: #F5F5F5;
+            border-radius: 70px;
+            margin-bottom: 30px;
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .milks{
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .imgtext{
+            text-align: center;
+            font-family: "Single Day", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+        img{
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            height: auto;
+            border-radius: 50px;
+        }
+        button{
+            font-family: "Single Day", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1> LoveMilk Form Order</h1>
+    <div id="form">
+        <form action="confirmation.html">
+            <div class="formrow">
+                <label for="firstnameid">FIRST NAME</label>
+                <div class="box" style="padding-left: 100px;"><input id="firstnameid" type="text" placeholder="First Name" style="height: 18px; width: 300px;"></div>
+            </div>
+
+            <div class="formrow">
+                <label for="lastnameid">LAST NAME</label>
+                <div class="box" style="padding-left: 105px;"><input id="lastnameid" type="text" placeholder="Last Name" style="height: 18px; width: 300px;"></div>
+            </div>
+
+            <div class="formrow">
+                <label for="emailid">EMAIL</label>
+                <div class="box" style="padding-left: 135px;"><input id="emailid" type="email" placeholder="example@email.com" style="height: 18px; width: 300px;"></div>
+            </div>
+
+            <div class="formrow">
+                <label for="phonenum">PHONE NUMBER</label>
+                <div class="box" style="padding-left: 83px;"><input id="phonenum" type="text" placeholder="(000) 000-0000" style="height: 18px; width: 300px;"></div>
+            </div>
+
+            <div class="formrow">
+                <label>MILK FLAVORS</label>
+                <br>
+                <div class="box" style="padding-left: 80px;">
+                    <label><input type="checkbox"> Vanilla </label>
+                    <br>
+                    <label><input type="checkbox"> Chocolate </label>
+                    <br>
+                    <label><input type="checkbox"> Strawberry </label>
+                    <br>
+                    <label><input type="checkbox"> Banana </label>
+                </div>
+            </div>
+
+            <div class="formrow">
+                <label id="terms"><input type="checkbox"> I accept Terms & Conditions </label>
+            </div>
+
+            <div class="formrow">
+                <button type="submit">ORDER</button>
+                <button type="reset">CLEAR</button>
+            </div>
+        </form>
+    </div>
+    <div id="milkbox">
+        <h3>MILK FLAVORS</h3>
+        <div class="milks">
+            <div class="imgtext">
+                <img src="media/milk.PNG" alt="Vanilla">
+                <p class="worditem">Vanilla Milk</p>
+            </div>
+            <div class="imgtext">
+                <img src="media/choco.PNG" alt="Chocolate">
+                <p class="worditem">Chocolate Milk</p>
+            </div>
+            <div class="imgtext">
+                <img src="media/strawberry.PNG" alt="Strawberry">
+                <p class="worditem">Strawberry Milk</p>
+            </div>
+            <div class="imgtext">
+                <img src="media/banana.PNG" alt="Banana">
+                <p class="worditem">Banana Milk</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

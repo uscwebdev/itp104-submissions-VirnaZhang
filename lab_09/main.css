@@ -1,0 +1,14 @@
+body{
+    background-image: url(media/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    background-color: #474441;
+    color: #F5F5F5;
+    width: 100px;
+    height: 40px;
+}
+button:hover{
+    text-decoration: underline;
+}
